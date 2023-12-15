@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "sass": "^1.69.5"
+  },
+  "scripts": {
+    "build:scss": "node-sass src/components/Header.scss src/components/Header.css",
+    "start": "node index.js"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2
+  }
+}
+
